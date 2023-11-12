@@ -4,4 +4,6 @@
     font-family: Caveat;
 }
 
-
+.done {
+    text-decoration: line-through;
+  }
