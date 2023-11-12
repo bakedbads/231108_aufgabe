@@ -1,7 +1,5 @@
 "use strict";
 
-let vorname = 'Koi';
-let text = 'Todos von' + vorname;
 const vorname = 'Koi';
 const text = 'Todos von ' + vorname;
 
@@ -23,3 +21,10 @@ ul.appendChild(document.createElement('li')).innerHTML = newlistitem;
 // ERSTES LISTENITEM LÖSCHEN
 
 ul.children[0].remove();
+
+// HINTERGRUNDFARBE ÄNDERN
+
+ul.children[4].style.backgroundColor = 'red';
+
+
+
