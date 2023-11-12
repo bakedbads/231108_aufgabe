@@ -19,3 +19,7 @@ const ul = document.querySelector('ul');
 const newlistitem = 'Schlafen';
 
 ul.appendChild(document.createElement('li')).innerHTML = newlistitem;
+
+// ERSTES LISTENITEM LÖSCHEN
+
+ul.children[0].remove();
